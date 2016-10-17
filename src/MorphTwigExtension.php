@@ -1,8 +1,6 @@
 <?php
 
-namespace Butterfly\Component\ThumbnailGenerator;
-
-use Butterfly\Component\Morph\NumberWordEnding;
+namespace Butterfly\Component\Morph;
 
 class MorphTwigExtension extends \Twig_Extension
 {
