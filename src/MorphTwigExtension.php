@@ -10,6 +10,14 @@ class MorphTwigExtension extends \Twig_Extension
     protected $numberWordEnding;
 
     /**
+     * @param NumberWordEnding $numberWordEnding
+     */
+    public function __construct(NumberWordEnding $numberWordEnding)
+    {
+        $this->numberWordEnding = $numberWordEnding;
+    }
+
+    /**
      * @return array
      */
     public function getFilters()
