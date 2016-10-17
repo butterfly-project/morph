@@ -1,0 +1,25 @@
+{
+    "name": "butterfly/morph",
+    "type": "library",
+    "description": "Butterfly PHP. Morph Component",
+    "keywords": ["Morph"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marat Fakhertdinov",
+            "email": "marat.fakhertdinov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Butterfly\\Component\\Morph\\": "src/",
+            "Butterfly\\Component\\Morph\\Tests\\": "tests/unit/"
+        }
+    }
+}
