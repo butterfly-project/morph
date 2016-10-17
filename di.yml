@@ -1,0 +1,7 @@
+services:
+  bfy.morph.number_word_ending:
+    class: 'Butterfly\Component\Morph\NumberWordEnding'
+
+  bfy.morph.twig_extension:
+    class: 'Butterfly\Component\Morph\MorphTwigExtension'
+    tags: 'bfy_adapter.twig.extensions'

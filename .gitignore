@@ -1,0 +1,4 @@
+/vendor/
+/tests/functional/vendor
+composer.lock
+
